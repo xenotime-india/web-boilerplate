@@ -7,15 +7,19 @@
   "scripts": {
     "start": "node app.js",
     "lint": "./node_modules/.bin/eslint **.js routes/**.js",
-    "start-dev": "nodemon app.js --exec 'gulp lint && node'"
+    "start-dev": "nodemon app.js --exec 'gulp lint && node'",
+    "test": "./node_modules/.bin/mocha test/index.test.js"
   },
   "dependencies": {
     "lillyWebPack": "git+https://github.com/xenotime-india/web_pack.git"
   },
   "devDependencies": {
-    "babel-eslint": "^4.1.6",
+    "chai": "^3.5.0",
     "eslint": "^3.4.0",
     "eslint-config-airbnb": "^12.0.0",
-    "nodemon": "~1.8.1"
+    "express": "^4.14.0",
+    "mocha": "^2.5.3",
+    "nsp": "^2.6.1",
+    "supertest": "^1.2.0"
   }
 }
