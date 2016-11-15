@@ -1,0 +1,25 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Auth0 + NodeJS Regular WebApp seed",
+  "author": "Auth0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "start-dev": "nodemon app.js --exec 'gulp lint && node'"
+  },
+  "dependencies": {
+    "lillyWebPack": "git+https://github.com/xenotime-india/web_pack.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "nodemon": "~1.8.1",
+    "parallelshell": "~2.0.0",
+    "watch": "~0.17.1"
+  }
+}
