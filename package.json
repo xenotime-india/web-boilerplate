@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node app.js",
+    "lint": "./node_modules/.bin/eslint **.js routes/**.js",
     "start-dev": "nodemon app.js --exec 'gulp lint && node'"
   },
   "dependencies": {
@@ -13,13 +14,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^4.1.6",
-    "eslint": "^1.10.3",
-    "eslint-config-airbnb-base": "^9.0.0",
-    "eslint-plugin-import": "^2.0.1",
-    "gulp": "^3.9.1",
-    "gulp-eslint": "^3.0.1",
-    "nodemon": "~1.8.1",
-    "parallelshell": "~2.0.0",
-    "watch": "~0.17.1"
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "nodemon": "~1.8.1"
   }
 }
