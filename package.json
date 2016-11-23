@@ -1,9 +1,15 @@
 {
-  "name": "LUSA-Web-Boilerplate",
-  "version": "1.0.0",
+  "name": "lusa-web-boilerplate",
+  "version": "1.0.1",
   "description": "web Boilerplate code NodeJS Regular WebApp",
-  "author": "lilly",
-  "license": "MIT",
+  "repository": "https://github.com/EliLillyCo/lusa-web-boilerplate.git"
+  "author": "Eli Lilly & Co",
+  "contributors": [
+    "Rick Arnett <rarnett@appirio.com>",
+    "Sandeep Kumar <sandeep@topcoder.com>"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "start": "node app.js",
     "lint": "./node_modules/.bin/eslint **.js routes/**.js",
