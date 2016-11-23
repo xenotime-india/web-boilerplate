@@ -1,9 +1,6 @@
-# LUSA Boilerplate
-# 01-Login
+# LUSA Web Boilerplate
 
-## Running the Sample
-
-Install the dependencies.
+**Install the dependencies.**
 
 ```bash
 npm install
@@ -16,6 +13,20 @@ Rename `.env.example` to `.env` and replace the values for `AUTH0_CLIENT_ID`, `A
 cp .env.example .env
 ```
 
+**Environment Variables**
+
+```
+ ENVIRONMENT=<dev|prod>
+ ALLOW_ANONYMOUS=<true|false>
+ FORCEHTTPS=<true|false>
+ KEEPWWW=<true|false>
+ AUTH0_DOMAIN=<auth0 domain name>
+ AUTH0_CLIENT_ID=<auth0 client id>
+ AUTH0_CLIENT_SECRET=<auth0 client secret>
+ AUTH0_CONNECTION=<auth0 connection name>
+ HOST=<application host name eg. http://localhost:3000>
+ SESSION_SECRET=<express session secret>
+```
 Run the app.
 
 ```bash

@@ -2,7 +2,7 @@
 module.exports = (routes) => {
   routes.get('/', (req, res) => {
     res.render('index', {
-      title: 'LUSA-Web-Pack',
+      title: 'lusa-web-boilerplate',
       user: JSON.stringify(req.user),
     });
   });
