@@ -1,0 +1,8 @@
+ENVIRONMENT=dev
+ALLOW_ANONYMOUS=true
+FORCEHTTPS=false
+KEEPWWW=true
+HOST=whereami.com
+CALLBACK_URL=/callback
+ERROR_PAGE=/error
+ENABLE_NEW_RELIC=false
