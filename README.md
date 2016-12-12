@@ -1,24 +1,28 @@
-# 01-Login
 
-## Running the Sample
+** This is a template for a README, for instructions on how to use this package;** [read INSTRUCTIONS.md]('./INSTRUCTIONS.md')
+---
 
-Install the dependencies.
+# Project Title
 
-```bash
-npm install
-```
+## Getting Started
 
-Rename `.env.example` to `.env` and replace the values for `AUTH0_CLIENT_ID`, `AUTH0_DOMAIN`, and `AUTH0_CLIENT_SECRET` with your Auth0 credentials. If you don't yet have an Auth0 account, [sign up](https://auth0.com/signuo) for free.
+### Prerequisites
 
-```bash
-# copy configuration and replace with your own
-cp .env.example .env
-```
+### Installing
 
-Run the app.
 
-```bash
-npm start
-```
+## Running the tests
 
-The app will be served at `localhost:3000`.
+## Deployment
+
+## Built With
+
+## Contributing
+
+## Versioning
+
+## Authors
+
+## License
+
+## Acknowledgments

@@ -1,26 +1,36 @@
 {
-  "name": "LUSA-Web-Boilerplate",
-  "version": "1.0.0",
+  "name": "lusa-web-boilerplate",
+  "version": "1.0.1",
   "description": "web Boilerplate code NodeJS Regular WebApp",
-  "author": "lilly",
-  "license": "MIT",
+  "repository": "https://github.com/EliLillyCo/lusa-web-boilerplate.git",
+  "author": "Eli Lilly & Co",
+  "contributors": [
+    "Rick Arnett <rarnett@appirio.com>",
+    "Sandeep Kumar <sandeep@topcoder.com>"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "start": "node app.js",
     "lint": "./node_modules/.bin/eslint **.js routes/**.js",
     "start-dev": "nodemon app.js --exec 'gulp lint && node'",
-    "test": "./node_modules/.bin/mocha test/index.test.js"
+    "test": "./node_modules/.bin/mocha test/index.test.js",
+    "snyktest": "./node_modules/.bin/snyk test",
+    "nsptest": "/node_modules/.bin/nsp check"
   },
   "dependencies": {
-    "lillyWebPack": "git+https://github.com/xenotime-india/web_pack.git"
+    "dotenv": "^2.0.0",
+    "lusa-pkg-web-pattern": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.4.0",
     "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.2.0",
     "express": "^4.14.0",
     "mocha": "^2.5.3",
     "nsp": "^2.6.1",
-    "supertest": "^1.2.0",
-    "snyk": "^1.19.1"
+    "snyk": "^1.20.0",
+    "supertest": "^1.2.0"
   }
 }
