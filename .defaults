@@ -1,5 +1,5 @@
 ENVIRONMENT=dev
-ALLOW_ANONYMOUS=true
+AUTH_ENABLED=true
 FORCEHTTPS=false
 KEEPWWW=true
 HOST=whereami.com

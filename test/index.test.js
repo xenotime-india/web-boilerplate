@@ -3,7 +3,7 @@
  */
 
 process.env.ENVIRONMENT = 'dev1';
-process.env.ALLOW_ANONYMOUS='true';
+process.env.AUTH_ENABLED='false';
 process.env.FORCEHTTPS='false';
 process.env.KEEPWWW='true';
 process.env.AUTH0_DOMAIN='app.auth0.com';

@@ -30,7 +30,7 @@ To see how these are resolved run:  `npm run show-config`
 
 **Authentication Configuration :**
   ````
-  ALLOW_ANONYMOUS=<true|false> * default false
+  AUTH_ENABLED=<true|false> * default true
   AUTH0_DOMAIN=<auth0 domain name> * required if ALLOW_ANONYMOUS = false
   AUTH0_CLIENT_ID=<auth0 client id> * required if ALLOW_ANONYMOUS = false
   AUTH0_CLIENT_SECRET=<auth0 client secret> * required if ALLOW_ANONYMOUS = false
