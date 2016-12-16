@@ -1,6 +1,6 @@
 {
   "name": "lusa-web-boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "web Boilerplate code NodeJS Regular WebApp",
   "repository": "https://github.com/EliLillyCo/lusa-web-boilerplate.git",
   "author": "Eli Lilly & Co",
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "dotenv": "^2.0.0",
-    "lusa-pkg-web-pattern": "^1.0.1"
+    "lusa-pkg-web-pattern": "^1.0.4"
   },
   "devDependencies": {
     "chai": "^3.5.0",

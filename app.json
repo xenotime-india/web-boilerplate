@@ -6,9 +6,18 @@
       "size" : "standard-1X"
     }
   },
+  "scripts":{
+    "postdeploy":"if [ \"$HEROKU_APP_NAME\" != \"\" ]; then export HOST=http://${HEROKU_APP_NAME}.herokuapp.com; fi"
+  },
+  "env":{
+    "HEROKU_APP_NAME": {
+      "required": true
+    }
+  },
   "addons":[
     "newrelic:drake",
     "papertrail:fixa"
   ],
   "buildpacks": [{"url": "heroku/nodejs"}]
 }
+
