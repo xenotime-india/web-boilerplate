@@ -1,0 +1,14 @@
+{
+  "keywords": ["node", "express", "static"],
+  "formation": {
+    "web": {
+      "quantity": 2,
+      "size" : "standard-1X"
+    }
+  },
+  "addons":[
+    "newrelic:drake",
+    "papertrail:fixa"
+  ],
+  "buildpacks": [{"url": "heroku/nodejs"}]
+}
