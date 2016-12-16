@@ -7,7 +7,7 @@
     }
   },
   "scripts":{
-    "postdeploy":"export HOST=http://${HEROKU_APP_NAME}.heroku.com"
+    "postdeploy":"if [ \"$HEROKU_APP_NAME\" != \"\" ]; then export HOST=http://${HEROKU_APP_NAME}.herokuapp.com; fi"
   },
   "env":{
     "HEROKU_APP_NAME": {
