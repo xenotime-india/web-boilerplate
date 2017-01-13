@@ -2,7 +2,7 @@
 	"redirects": [
 		{
 			"url": "http://localhost:3000/redirecttest",
-			"redirectToUrl": "http://localhost:3000/test/about/?test=value",
+			"redirectToUrl": "http://localhost:3000/test/about?test=value",
 			"matchType": "absolute",
 			"httpStatusCode": "302"
 		}

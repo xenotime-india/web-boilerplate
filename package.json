@@ -31,6 +31,8 @@
     "mocha": "^2.5.3",
     "nsp": "^2.6.1",
     "snyk": "^1.20.0",
-    "supertest": "^1.2.0"
+    "supertest": "^1.2.0",
+    "medusa": "git+https://github.com/xenotime-india/med.git",
+    "run-sequence": "^1.2.2"
   }
 }
